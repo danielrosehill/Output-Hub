@@ -1,0 +1,137 @@
+{
+    "ERD": {
+        "Entities": [
+            {
+                "name": "Custom GPT Table",
+                "attributes": [
+                    "GPT ID (PK)",
+                    "Name",
+                    "Description",
+                    "Category ID (FK)",
+                    "Tag ID (FK)",
+                    "Use Case ID (FK)",
+                    "Model ID (FK)",
+                    "Platform ID (FK)"
+                ]
+            },
+            {
+                "name": "Custom GPT Views",
+                "attributes": [
+                    "View ID (PK)",
+                    "GPT ID (FK)",
+                    "View Name",
+                    "View Description"
+                ]
+            },
+            {
+                "name": "GPT Categories",
+                "attributes": [
+                    "Category ID (PK)",
+                    "Category Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "GPT Tags",
+                "attributes": [
+                    "Tag ID (PK)",
+                    "Tag Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "GPT Use Cases",
+                "attributes": [
+                    "Use Case ID (PK)",
+                    "Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "GPT Model List",
+                "attributes": [
+                    "Model ID (PK)",
+                    "Model Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "GPT Platform List",
+                "attributes": [
+                    "Platform ID (PK)",
+                    "Platform Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "Prompt Output Table",
+                "attributes": [
+                    "Output ID (PK)",
+                    "GPT ID (FK)",
+                    "Output Type ID (FK)",
+                    "Content",
+                    "Date Created",
+                    "Category ID (FK)"
+                ]
+            },
+            {
+                "name": "Prompt Library Table",
+                "attributes": [
+                    "Prompt ID (PK)",
+                    "GPT ID (FK)",
+                    "Prompt Text",
+                    "Date Created",
+                    "Category ID (FK)"
+                ]
+            },
+            {
+                "name": "Prompt Output Categories",
+                "attributes": [
+                    "Category ID (PK)",
+                    "Category Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "Prompt Output Type",
+                "attributes": [
+                    "Output Type ID (PK)",
+                    "Output Type Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "Project Tags",
+                "attributes": [
+                    "Tag ID (PK)",
+                    "Tag Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "Post Prompt Actions",
+                "attributes": [
+                    "Action ID (PK)",
+                    "Action Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "Prompting Objectives",
+                "attributes": [
+                    "Objective ID (PK)",
+                    "Objective Name",
+                    "Description"
+                ]
+            },
+            {
+                "name": "Knowledge Categories",
+                "attributes": [
+                    "Category ID (PK)",
+                    "Category Name",
+                    "Description"
+                ]
+            }
+        ]
+    }
+}

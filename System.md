@@ -8,6 +8,8 @@ I chose NocoDB because it is open source, ensuring that my system isn’t tied t
 
 ## Basic Data Architecture
 
+*For details, see `Data_Architecture`*
+
 The system is based on a single base with many tables. Although this is not perhaps the ideal architecture, it allows for extensive relationship configuration within the base. In a more ideal architecture, the main components of the system, like the prompt library, the GPT register, and the GPT output list, would be more decoupled.
 
 I have created tables to serve various purposes:
@@ -15,6 +17,10 @@ I have created tables to serve various purposes:
 - **Custom GPTs**: This is a register of all the GPTs that I have developed for various purposes. This table is frequently updated.
 - **Prompt Library**: This table stores prompts. Ideally, the prompt library would include a table for prompts and another for versions. While it's possible to achieve this in NocoDB, I wasn’t able to figure out a way to do this within the one base (and the one base design was necessary to link the prompts to the other key taxonomies like outputs).
 - **Prompt Outputs**: This table stores the actual outputs of the prompts that are run.
+
+### Diagram
+
+![Data relationships](Diagrams/Taxonomy_Tables.png)
 
 ## Taxonomy Tables
 

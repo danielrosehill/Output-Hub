@@ -1,0 +1,54 @@
++-------------------+      +---------------------+      +---------------------+
+|  Custom GPT Table |      |  Custom GPT Views   |      |      GPT Tags       |
+|-------------------|      |---------------------|      |---------------------|
+| GPT ID (PK)       |--+---| View ID (PK)        |      | Tag ID (PK)         |
+| Name              |  |   | GPT ID (FK)         |      | Tag Name            |
+| Description       |  |   | View Name           |      | Description         |
+| Category ID (FK)  |  |   | View Description    |      +---------------------+
+| Tag ID (FK)       |  |
+| Use Case ID (FK)  |  |
+| Model ID (FK)     |  |
+| Platform ID (FK)  |  |
++-------------------+  |
+                       |
+                       |
+                       v
++-------------------+  |   +---------------------+      +---------------------+
+| GPT Categories    |  |   |  Prompt Output Table|      |     GPT Use Cases   |
+|-------------------|  |   |---------------------|      |---------------------|
+| Category ID (PK)  |  +---| Output ID (PK)      |      | Use Case ID (PK)    |
+| Category Name     |      | GPT ID (FK)         |      | Name                |
+| Description       |      | Output Type ID (FK) |      | Description         |
++-------------------+      | Content             |      +---------------------+
+                           | Date Created        |
+                           | Category ID (FK)    |
+                           +---------------------+
+                                |
+                                v
++-------------------+      +---------------------+      +---------------------+
+| Prompt Output Categories| |    Prompt Library  |      |    GPT Model List   |
+|-------------------|      |---------------------|      |---------------------|
+| Category ID (PK)  |      | Prompt ID (PK)      |      | Model ID (PK)       |
+| Category Name     |      | GPT ID (FK)         |      | Model Name          |
+| Description       |      | Prompt Text         |      | Description         |
++-------------------+      | Date Created        |      +---------------------+
+                           | Category ID (FK)    |
+                           +---------------------+
+                                |
+                                v
++-------------------+      +---------------------+      +---------------------+
+|    GPT Platform List |  |   Prompt Output Type |      |     Project Tags    |
+|-------------------|      |---------------------|      |---------------------|
+| Platform ID (PK)  |      | Output Type ID (PK) |      | Tag ID (PK)         |
+| Platform Name     |      | Output Type Name    |      | Tag Name            |
+| Description       |      | Description         |      | Description         |
++-------------------+      +---------------------+      +---------------------+
+                                |
+                                v
++-------------------+      +---------------------+      +---------------------+
+| Post Prompt Actions |  |  Prompting Objectives|      | Knowledge Categories|
+|-------------------|      |---------------------|      |---------------------|
+| Action ID (PK)    |      | Objective ID (PK)   |      | Category ID (PK)    |
+| Action Name       |      | Objective Name      |      | Category Name       |
+| Description       |      | Description         |      | Description         |
++-------------------+      +---------------------+      +---------------------+
