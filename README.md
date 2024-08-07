@@ -18,4 +18,5 @@ Daniel Rosehill
 
 ## Licensing
 
-A Creative Commons license which provides unencumbered use provided that attribution is granted. [Creative Commons License](https://creativecommons.org/licenses/by/4.0/)
+This repository is licensed under CC-BY-4.0 (Attribution 4.0 International) 
+[License](https://creativecommons.org/licenses/by/4.0/)
