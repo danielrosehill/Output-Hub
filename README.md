@@ -17,6 +17,10 @@ Even at a basic level of scale, leveraging GPTs *professionally* involves an evo
 
 While enterprise users may develop proprietary GPTs or even LLMs, many smaller businesses will access the technology through popular platforms like OpenAI's ChatGPT.
 
+## Current Stack
+
+See - `stack.md`
+
 ### Core Components Of A "GPT Workbench" / GPT Management System
 
 Whether users are using GPTs programatically or via GUI elements including a web UI, these activities are likely very important:
