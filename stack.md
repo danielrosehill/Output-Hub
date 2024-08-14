@@ -14,6 +14,11 @@ Postgres was chosen for its excellent scalability.
 
 NocoDB is used for easy visual management of the underlying database and the generation of API endpoints.
 
+## Roadmap 
+
+- Custom Android app for easily reading stored (prompt) outputs
+- Web frontend for easily reading *and editing* stored (prompt) outputs
+
 ## Backups
 
 - Nightly incremental backup of the Postgres to object storage
