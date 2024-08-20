@@ -9,6 +9,12 @@ The system is a work in progress but also currently includes the ability to stor
 
 The system leverages the usefulness of the underlying relational database in order to help the user make logical connections between custom GPTs, prompts used, and prompt outputs stored from generations.
 
+## Data Architecture
+
+See: `Data_Architecture`
+
+![Data relationships](/images/banner.png)
+
 ## What Is A GPT "Management System"?
 
 Here's my thinking and definition: 
