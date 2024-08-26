@@ -43,6 +43,12 @@ Prompt libraries are more typically used in the reverse order: to capture prompt
 
 A work in progress? Figuring out the best way to make these two sides of the prompting journey connect as a unified dataset. The workflow I'm working towards: casual prompts are captured as draft "serious" prompts (in the library). They may be discarded or evaluated as prospective production prompts. 
 
+## Key Data Relationships
+
+| Relationship | Description | Why It Matters |
+| --- | --- |
+| Prompt outputs to tags | Prompt outputs have tags (M2M) | A useful basic system taxonomy for exploring prompt outputs at a later date by selecting for specific tags.
+
 ## Data Architecture
 
 See: `Data_Architecture`
