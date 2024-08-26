@@ -9,6 +9,40 @@ The system is a work in progress but also currently includes the ability to stor
 
 The system leverages the usefulness of the underlying relational database in order to help the user make logical connections between custom GPTs, prompts used, and prompt outputs stored from generations.
 
+![FrontendV1](/Screenshots/frontend/1.png)
+
+## Core Modules
+
+### 1: Prompt Output Library
+
+The core function of this module is to record and store for recall the output of GPT prompts that may have lasting value (for whatever purpose). 
+
+The module can be written to and read from both programatically (via direct API integration with ChatGPT, for example) or via a web UI (for example, the user copies and pastes prompts and prompt outputs or perhaps uses some RPA tools to do this more efficiently.)
+
+Over time, a rich and useful repository of information is developed. As prompt outputs are reviewed by humans, human-refined AI outputs can be stored in a separate database field (like `edited_output`).
+
+### 2: Custom GPT Library
+
+Just as engineered prompts are valuable assets for ongoing interactions with GPTs, customised GPTs (context and knowledge layered onto core GPT models) have potentially significant business value.
+
+The second module in GPT Workbench (working name) is a system for storing these configurations. Again, you could record custom GPTs created programatically or visually.
+
+An important data relationship is that which is captured between **GPT outputs** and **custom GPTs**. By mapping outputs onto the GPTs they originated from (where those are custom GPTs and not the undifferentiated GPT models) custom GPT configurations can be evaluated for efficacy and refined iteratively. 
+
+In a future iteration, these two datasets might even be compared by AI (that is to say, an AI could parse a custom GPT's outputs to identify configuration changes for the underlying GPT).
+
+### 3: Prompt Library
+
+My current architecture is like this:
+
+- When prompt outputs are recorded, the prompts (their corresponding input) is recorded. 
+
+This is a means of capturing prompts that are written casually on an ad-hoc basis. 
+
+Prompt libraries are more typically used in the reverse order: to capture prompts that are drafted, carefully refined, and then used in production. This module captures those prompts too.
+
+A work in progress? Figuring out the best way to make these two sides of the prompting journey connect as a unified dataset. The workflow I'm working towards: casual prompts are captured as draft "serious" prompts (in the library). They may be discarded or evaluated as prospective production prompts. 
+
 ## Data Architecture
 
 See: `Data_Architecture`
@@ -17,7 +51,7 @@ See: `Data_Architecture`
 
 ## What Is A GPT "Management System"?
 
-![FrontendV1](/Screenshots/frontend/1.png)
+
 
 Here's my thinking and definition: 
 
