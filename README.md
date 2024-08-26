@@ -47,7 +47,10 @@ A work in progress? Figuring out the best way to make these two sides of the pro
 
 | Relationship | Description | Why It Matters |
 | --- | --- | -- | 
-| Prompt outputs to tags | Prompt outputs have tags (M2M) | A useful basic system taxonomy for exploring prompt outputs at a later date by selecting for specific tags.
+| Prompt outputs to tags | Prompt outputs have tags (M2M) | A useful basic system taxonomy for exploring prompt outputs at a later date by selecting for specific tags. |
+| Prompt outputs to prompts | Every prompt output has at least one prompt. One prompt can generate many outputs | Correlate prompting (input) with output (output) |
+| Custom GPTs to prompt outputs | A custom GPT is used to generate a prompt. Any GPT can be used to generate an infinite number of prompts. | Correlate custom GPT configurations with the prompt outputs that they generate |
+| Prompts to custom GPTs | Prompts are used to generate outputs from custom GPTs | Identifying what kind of prompting strategy works best for a specific custom GPT | 
 
 ## Data Architecture
 
