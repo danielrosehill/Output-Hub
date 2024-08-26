@@ -1,0 +1,21 @@
+Model Name,Description
+GPT-1,The first iteration of the Generative Pre-trained Transformer model, developed by OpenAI.
+GPT-2,An improved version with 1.5 billion parameters, known for generating coherent and contextually relevant text.
+GPT-3,The third version with 175 billion parameters, offering highly advanced language understanding and generation capabilities.
+GPT-3.5,An intermediate version between GPT-3 and GPT-4, improving accuracy and contextual understanding.
+GPT-4,A significant leap with enhanced reasoning, problem-solving, and language understanding across various domains.
+GPT-Neo,A series of open-source GPT models created by EleutherAI as alternatives to OpenAI's models.
+GPT-NeoX,A larger variant in the GPT-Neo family, designed for high-performance language tasks.
+GPT-J,An open-source model by EleutherAI, known for its balance between performance and resource efficiency.
+GPT-4-turbo,An optimized and faster version of GPT-4, designed for efficient real-time processing.
+GPT-3-turbo,A more efficient version of GPT-3, optimized for quicker response times in applications.
+GPT-2-XL,A larger variant of GPT-2, offering improved text generation capabilities.
+GPT-2-Medium,A mid-sized version of GPT-2, balancing performance and computational requirements.
+GPT-2-Small,A smaller version of GPT-2, suitable for applications with limited resources.
+ChatGPT,An implementation of GPT-3.5 optimized for conversational tasks, widely used in chat applications.
+Codex,A GPT-3 based model specialized in generating and understanding code, used in programming and software development.
+DALL-E,An extension of the GPT architecture designed to generate images from textual descriptions.
+DALL-E 2,An improved version of DALL-E, producing more detailed and accurate images from text prompts.
+InstructGPT,A variant of GPT-3 trained with human feedback to generate more aligned and helpful responses.
+GPT-3 Davinci,The most capable variant of GPT-3, known for handling complex and nuanced text generation tasks.
+GPT-3 Curie,A smaller variant of GPT-3, offering a good balance between performance and computational cost.

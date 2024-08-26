@@ -1,0 +1,11 @@
+Length,Description
+Word,Single word output.
+Phrase,A short group of words or a brief expression.
+Sentence,A complete thought expressed in a single sentence.
+Paragraph,A longer, more developed thought typically consisting of several sentences.
+Summary,A concise overview or abstract, usually a few sentences to a short paragraph.
+Snippet,A small portion of text, such as a code snippet or a brief excerpt.
+Page,A full page of text, typically 250-500 words.
+Essay,A multi-paragraph text, usually between 500 and 1,000 words.
+Article,A detailed piece of writing, often ranging from 1,000 to 3,000 words.
+Report,A comprehensive document, typically several pages or more in length.

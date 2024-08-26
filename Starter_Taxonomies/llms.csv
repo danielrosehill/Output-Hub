@@ -1,0 +1,11 @@
+Model Name,Description
+GPT-4,The latest and most advanced model in the GPT series by OpenAI, known for its powerful text generation and understanding capabilities.
+GPT-3,A highly influential model with 175 billion parameters, widely used in various natural language processing tasks.
+BERT,An LLM by Google, designed for understanding the context of words in search queries and other text processing tasks.
+T5 (Text-To-Text Transfer Transformer),A model by Google that treats every NLP task as a text-to-text problem, enabling versatility across different tasks.
+RoBERTa,A robustly optimized version of BERT by Facebook AI, designed to improve performance on various NLP benchmarks.
+GPT-Neo,A series of open-source LLMs by EleutherAI, created as alternatives to OpenAI's GPT models.
+GPT-J,A 6 billion parameter model by EleutherAI, known for its balance of performance and efficiency.
+BLOOM,An open-access multilingual LLM developed by BigScience, designed to support over 50 languages.
+LLaMA (Large Language Model Meta AI),A family of LLMs by Meta, focused on efficiency and smaller model sizes while maintaining high performance.
+XLNet,A model by Google that combines the strengths of autoregressive models like GPT and autoencoding models like BERT.

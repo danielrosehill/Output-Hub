@@ -1,0 +1,11 @@
+Word Count,Description
+1-10,Very Short: A brief output, such as a single word or short phrase.
+11-25,Short: A concise statement or brief answer.
+26-50,Compact: A small block of text, like a summary or key point.
+51-100,Medium: A short paragraph or detailed explanation.
+101-250,Standard: A typical paragraph or a brief article.
+251-500,Extended: A more detailed explanation or short essay.
+501-1,000,Comprehensive: A multi-paragraph text, such as an in-depth analysis or overview.
+1,001-2,000,Article Length: A detailed piece, suitable for blog posts or articles.
+2,001-3,000,Long Article: An in-depth article, suitable for thorough exploration of a topic.
+3,001+,Report Length: A lengthy and detailed document, like a report or research paper.

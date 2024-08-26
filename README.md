@@ -58,9 +58,13 @@ See: `Data_Architecture`
 
 ![Data relationships](/images/banner.png)
 
+## Starter System Taxonomies
+
+See the starter taxonomies and the `notes.md` in the folder.
+
+Some of the demo taxonomies will quickly become outdated (e.g. the list of GPT models).
+
 ## What Is A GPT "Management System"?
-
-
 
 Here's my thinking and definition: 
 
