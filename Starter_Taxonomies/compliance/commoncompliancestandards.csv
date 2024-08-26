@@ -1,0 +1,11 @@
+Framework,Description
+GDPR (General Data Protection Regulation),"Regulation in the EU focused on data protection and privacy for individuals, also addressing the export of personal data outside the EU."
+CCPA (California Consumer Privacy Act),"California state law that provides residents with rights over their personal data, including the right to know, delete, and opt-out of the sale of their data."
+HIPAA (Health Insurance Portability and Accountability Act),"U.S. law that mandates secure handling of individuals' health information, applicable to healthcare providers and related entities."
+SOX (Sarbanes-Oxley Act),"U.S. federal law that sets requirements for financial practices and reporting, including the protection of data in financial systems."
+PCI DSS (Payment Card Industry Data Security Standard),"Set of security standards designed to ensure that all companies that process, store, or transmit credit card information maintain a secure environment."
+ISO/IEC 27001,"International standard for information security management systems, providing a framework to protect sensitive company information."
+NIST CSF (National Institute of Standards and Technology Cybersecurity Framework),"Framework developed by NIST to guide organizations in managing and reducing cybersecurity risks."
+FERPA (Family Educational Rights and Privacy Act),"U.S. federal law that protects the privacy of student education records, applicable to all schools that receive funding from the U.S. Department of Education."
+SOC 2 (System and Organization Controls 2),"Framework for managing and safeguarding customer data, commonly used by technology and cloud computing companies to ensure compliance with data privacy and security standards."
+PIPEDA (Personal Information Protection and Electronic Documents Act),"Canadian law governing how private sector organizations collect, use, and disclose personal information in the course of commercial business."

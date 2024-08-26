@@ -1,0 +1,11 @@
+Approval Level,Description
+Draft,Initial version, not yet reviewed or approved.
+Peer Review,Reviewed by colleagues or team members for initial feedback.
+Revisions Needed,Identified as requiring changes before further approval.
+Team Lead Approval,Approved by the immediate supervisor or team leader.
+Quality Assurance,Checked by a quality control team for consistency and accuracy.
+Compliance Review,Assessed for compliance with relevant regulations or guidelines.
+Manager Approval,Reviewed and approved by a department or project manager.
+Final Approval,Approved by senior leadership or final authority.
+Client Approval,Reviewed and approved by an external client or stakeholder.
+Published,Officially released or deployed for use.

@@ -1,0 +1,11 @@
+Sentiment,Description
+Very Positive,Extremely optimistic or enthusiastic tone, expressing strong approval or happiness.
+Positive,Generally favorable or happy tone, expressing approval or satisfaction.
+Slightly Positive,Mildly favorable tone, expressing slight approval or contentment.
+Neutral,Unbiased and objective tone, neither positive nor negative.
+Slightly Negative,Mildly unfavorable tone, expressing slight disapproval or concern.
+Negative,Generally unfavorable or critical tone, expressing disapproval or dissatisfaction.
+Very Negative,Extremely pessimistic or critical tone, expressing strong disapproval or unhappiness.
+Mixed,A combination of both positive and negative sentiments within the same output.
+Ambiguous,Unclear or uncertain sentiment, making it difficult to categorize as positive or negative.
+Sarcastic,A tone that may outwardly appear positive or negative but actually conveys the opposite sentiment.

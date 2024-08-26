@@ -1,0 +1,6 @@
+Rating,Description
+Highly Accurate,"The output is completely accurate, with no factual errors or misleading information; fully trustworthy."
+Mostly Accurate,"The output is generally correct, with minor inaccuracies or omissions that do not significantly impact understanding."
+Partially Accurate,"The output contains some accurate information, but also includes noticeable errors or gaps that affect reliability."
+Minimally Accurate,"The output has limited correct information, with several significant inaccuracies that hinder its usefulness."
+Inaccurate,"The output is mostly or entirely incorrect, providing false or misleading information that could cause misunderstanding."

@@ -1,0 +1,11 @@
+Sensitivity Level,Description
+Public,Information intended for public distribution, with no confidentiality concerns.
+Internal,Information meant for internal use only, with no significant risk if disclosed.
+Confidential,Business-sensitive information that should only be accessible to authorized personnel.
+Restricted,Highly sensitive information, limited to specific departments or roles within the organization.
+Proprietary,Information related to business processes or products that are proprietary to the company.
+Client Confidential,Information containing client-specific details that require strict confidentiality.
+Personal Data,Information that includes personal identifiers or sensitive personal information (PII).
+Financial Data,Information related to financial performance, forecasts, or sensitive transactions.
+Regulated,Information subject to industry regulations, such as GDPR, HIPAA, or other compliance requirements.
+Top Secret,The highest level of sensitivity, involving critical business or strategic information with severe consequences if disclosed.

@@ -1,0 +1,11 @@
+Rating,Description
+Excellent,"The output exceeds expectations, providing highly accurate, relevant, and well-articulated information with no errors."
+Very Good,"The output is clear, relevant, and mostly accurate, with minor room for improvement in detail or precision."
+Good,"The output meets the basic requirements, offering generally accurate and relevant information, though with some minor issues."
+Satisfactory,"The output is adequate but may lack depth, clarity, or full accuracy, requiring some adjustments or follow-up."
+Fair,"The output is partially correct and relevant but contains noticeable gaps or errors that diminish its overall effectiveness."
+Needs Improvement,"The output has significant issues with accuracy, relevance, or clarity, making it less useful without further refinement."
+Poor,"The output is largely incorrect, unclear, or irrelevant, failing to meet the user's needs or expectations."
+Very Poor,"The output is substantially flawed, with major errors or a complete lack of relevance to the query."
+Unacceptable,"The output is unusable, containing critical errors or issues that render it entirely inappropriate or incorrect."
+Not Applicable,"The rating is not applicable, often used when the output does not fit within the evaluation criteria or is incomplete."

@@ -1,0 +1,11 @@
+Format,Description
+Text,"Standard text format, suitable for general communication and most chat interfaces."
+Markdown,"Text format that includes simple formatting elements like bold, italics, headers, and lists using plain text symbols."
+HTML,"HyperText Markup Language, used for structuring content on the web with elements like headings, paragraphs, links, and images."
+JSON,"JavaScript Object Notation, a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate."
+CSV,"Comma-Separated Values, a format for storing tabular data where each line corresponds to a row in the table, and each column is separated by a comma."
+Code,"Programming code format, where the output is structured as source code in various programming languages like Python, JavaScript, etc."
+Table,"Structured data output as rows and columns, often used to display information in a tabular format within text or as an HTML table."
+Bullet Points,"Output structured as a list of key points, often used for summarizing information or presenting items in a concise format."
+YAML,"YAML Ain't Markup Language, a human-readable data serialization standard, often used for configuration files and data exchange."
+PDF,"Portable Document Format, a file format used to present documents consistently across multiple devices and platforms, preserving the original formatting."

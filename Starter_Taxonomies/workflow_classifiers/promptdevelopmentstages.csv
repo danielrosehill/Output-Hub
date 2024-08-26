@@ -1,0 +1,11 @@
+Stage,Description
+Initial Inquiry,"The first version of the prompt, typically a broad or basic question reflecting an initial need or curiosity."
+Clarification,"The prompt is refined to include specific details or context to narrow down the focus of the response."
+Contextualization,"Additional background information is added to the prompt to ensure GPT understands the business context."
+Specification,"The prompt is further detailed to specify the format, length, or type of response desired."
+Iteration,"The prompt is adjusted based on initial outputs, refining the question or request for better alignment with business needs."
+Personalization,"Incorporating user preferences, tone, or style to tailor the prompt for a specific audience or user."
+Integration,"The prompt is designed to work within a specific workflow, incorporating elements from other business tools or APIs."
+Optimization,"The prompt is optimized for efficiency, ensuring concise and clear instructions to minimize unnecessary output."
+Automation,"The prompt is adapted for use in automated systems or scripts, enabling repeated use with minimal modification."
+Review and Feedback,"Final stage where the prompt is reviewed for effectiveness and adjusted based on user feedback or business outcomes."

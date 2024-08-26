@@ -1,0 +1,11 @@
+Policy,Description
+Immediate Deletion,"Output data is deleted immediately after use, ensuring no storage or retention of information."
+Session-Based Retention,"Data is retained only for the duration of a user session and is deleted once the session ends."
+Short-Term Retention,"Data is kept for a brief period, such as 24 hours, to allow for follow-up queries before deletion."
+Time-Based Retention,"Output data is retained for a specific time frame, such as 7 days, before automatic deletion."
+Project-Based Retention,"Data is retained until the completion of a specific project or task, after which it is purged."
+User-Controlled Retention,"Users are given the option to manually delete or retain data based on their preferences."
+Compliance-Based Retention,"Data is retained in accordance with legal or regulatory requirements, such as GDPR or HIPAA."
+Anonymized Retention,"Output data is stored with personally identifiable information removed to allow for safe retention."
+Encrypted Retention,"Data is stored in an encrypted format to ensure security, with retention periods based on security policies."
+Archival Retention,"Data is moved to long-term storage for archival purposes, accessible only under specific conditions."
