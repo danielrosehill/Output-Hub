@@ -17,6 +17,8 @@ See: `Data_Architecture`
 
 ## What Is A GPT "Management System"?
 
+![FrontendV1](/Screenshots/frontend/1.png)
+
 Here's my thinking and definition: 
 
 Even at a basic level of scale, leveraging GPTs *professionally* involves an evolving series of functions which will likely become more "standardised" as harnessing GPTs for business uses becomes more entrenched and established. 
