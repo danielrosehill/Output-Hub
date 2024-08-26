@@ -1,11 +1,11 @@
 Method,Description
-Chat Interface,Engaging with GPTs through a conversational UI, often in chatbots or messaging apps.
+Chat Interface,Engaging with GPTs through a conversational UI
 Command Line,Interacting with GPTs via text-based commands in a terminal or console.
 API Calls,Integrating GPTs into applications by sending prompts and receiving responses through an API.
-Voice Commands,Using spoken language to interact with GPTs, often through smart assistants or speech recognition systems.
+Voice Commands,Using spoken language to interact with GPTs
 Web Form,Submitting prompts via input fields on a website or web application.
 Scripting,Automating interactions with GPTs using scripts in programming languages like Python or JavaScript.
 Integrated Development Environment (IDE),Prompting GPTs directly within a code editor for tasks like code completion or debugging.
 Mobile App,Using a dedicated mobile application to send prompts and receive responses from GPTs.
-Text File,Providing prompts via text files, where the file content is read and processed by the GPT.
+Text File,Providing prompts via text files
 Browser Extension,Prompting GPTs through a browser plugin that enhances web browsing with AI capabilities.

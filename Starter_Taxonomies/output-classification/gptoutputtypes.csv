@@ -1,20 +1,20 @@
 Output Type,Description
-Text Completion,Continuation of a given text input, often used to finish sentences or paragraphs.
-Conversation,Simulated dialogue or interaction, typically used in chatbots and virtual assistants.
-Summarization,Condensed versions of longer texts, highlighting key points and main ideas.
+Text Completion,Continuation of a given text input
+Conversation,Simulated dialogue or interaction
+Summarization,Condensed versions of longer texts
 Translation,Conversion of text from one language to another.
-Sentiment Analysis,Determination of the emotional tone in a text (e.g., positive, negative, neutral).
+Sentiment Analysis,Determination of the emotional tone in a text (e.g.
 Question and Answer,Direct answers generated in response to specific questions posed by the user.
-Creative Writing,Original content generation such as stories, poems, or fictional dialogue.
+Creative Writing,Original content generation such as stories
 Code Generation,Creation of programming code based on text prompts or requirements.
 Paraphrasing,Rewording of text while retaining the original meaning.
-Recommendations,Suggestions provided based on input data, such as product or content recommendations.
+Recommendations,Suggestions provided based on input data
 Instructional Text,Step-by-step guides or how-to instructions generated in response to prompts.
 Data Extraction,Identification and extraction of specific information from larger text bodies.
 Text Analysis,Examination and interpretation of text to provide insights or summaries.
 Idea Generation,Creation of new ideas or concepts in response to brainstorming prompts.
-Script Writing,Generation of dialogues or scripts for movies, plays, or other media.
-Social Media Posts,Content tailored for platforms like Twitter, Facebook, or Instagram.
+Script Writing,Generation of dialogues or scripts for movies
+Social Media Posts,Content tailored for platforms like Twitter
 Email Drafting,Automatic or semi-automatic composition of emails based on brief prompts.
 Table Generation,Creation of structured tables or lists from unstructured text data.
 Text Classification,Assigning categories or labels to text based on content.

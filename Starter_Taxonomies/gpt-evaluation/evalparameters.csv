@@ -1,7 +1,7 @@
 Observation,Description
 Question Clarity,How clear and understandable the user's question is.
 Response Time,How quickly the user expects a response.
-Tone,The emotional tone of the user's messages (e.g., friendly, frustrated).
+Tone,The emotional tone of the user's messages (e.g.
 Context Provided,Amount of context or background information given by the user.
 Complexity of Query,How complex or detailed the user's request is.
 Grammar and Spelling,Quality of the user's grammar and spelling.
@@ -10,12 +10,12 @@ Engagement Level,How engaged or interactive the user seems to be.
 Language Used,The language the user is communicating in.
 User Satisfaction,Whether the user expresses satisfaction or dissatisfaction with the response.
 Follow-up Questions,If the user asks further questions or clarifications.
-Use of Specific Terms,Whether the user uses technical terms, jargon, or specific vocabulary.
+Use of Specific Terms,Whether the user uses technical terms
 Politeness,The level of politeness or courtesy in the user's messages.
 Length of Interaction,The duration or length of the conversation.
 Use of Emojis/Emoticons,Whether the user incorporates emojis or emoticons in their messages.
 User Intent,What the user is trying to achieve or obtain through the interaction.
 Knowledge Level,The user's apparent level of knowledge on the subject matter.
-Preference Indications,Any preferences the user indicates (e.g., format, style of response).
+Preference Indications,Any preferences the user indicates (e.g.
 Criticism,If the user offers any critique or negative feedback.
 Praise,If the user offers any positive feedback or compliments.

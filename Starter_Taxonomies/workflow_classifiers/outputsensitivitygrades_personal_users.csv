@@ -1,11 +1,11 @@
 Sensitivity Level,Description
-Public,Information safe to share publicly, such as general knowledge or non-sensitive content.
-Personal,Information related to personal interests or hobbies, with minimal privacy concerns.
+Public,Information safe to share publicly
+Personal,Information related to personal interests or hobbies
 Friends and Family,Information intended to be shared within a trusted circle of friends or family.
-Private,Personal information that you prefer to keep confidential, such as preferences or opinions.
-Sensitive,Information related to health, relationships, or personal finances that should be handled with care.
-Highly Sensitive,Information involving private matters such as mental health, legal issues, or intimate details.
-Confidential,Information involving identity details like full name, address, or contact information that should be protected.
-Financial Data,Information related to personal finances, such as income, expenses, or account details.
-Medical Data,Information about your health or medical history, requiring strict privacy.
-Top Secret,The most sensitive personal information, such as passwords, Social Security numbers, or legal documents, that must be kept extremely secure.
+Private,Personal information that you prefer to keep confidential
+Sensitive,Information related to health
+Highly Sensitive,Information involving private matters such as mental health
+Confidential,Information involving identity details like full name
+Financial Data,Information related to personal finances
+Medical Data,Information about your health or medical history
+Top Secret,The most sensitive personal information
