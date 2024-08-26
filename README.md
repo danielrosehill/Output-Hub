@@ -46,7 +46,7 @@ A work in progress? Figuring out the best way to make these two sides of the pro
 ## Key Data Relationships
 
 | Relationship | Description | Why It Matters |
-| --- | --- |
+| --- | --- | -- | 
 | Prompt outputs to tags | Prompt outputs have tags (M2M) | A useful basic system taxonomy for exploring prompt outputs at a later date by selecting for specific tags.
 
 ## Data Architecture
