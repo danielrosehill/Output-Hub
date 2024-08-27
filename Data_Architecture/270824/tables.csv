@@ -1,0 +1,90 @@
+Table Name,Human-Friendly Name,Category
+custom_gpts,Custom GPTs,Core Table
+customgptlibraries,Custom GPT Libraries,Core Table
+customgptplanner,Custom GPT Planner,Core Table
+list_reviewstatus,Review Status List,Lookup Table
+list_accessui,Access UI List,Lookup Table
+list_accuracy_levels,Accuracy Levels List,Lookup Table
+list_actionability,Actionability Levels List,Lookup Table
+list_automation_levels,Automation Levels List,Lookup Table
+list_backup_statuses,Backup Statuses List,Lookup Table
+list_business_system_tags,Business System Tags List,Lookup Table
+list_chatgpt_output_formats,ChatGPT Output Formats List,Lookup Table
+list_cost_levels,Cost Levels List,Lookup Table
+list_creationac,Creation Account List,Lookup Table
+list_creative_commons_licenses,Creative Commons Licenses List,Lookup Table
+list_data_sensitivity,Data Sensitivity Levels List,Lookup Table
+list_data_sharing_groups,Data Sharing Groups List,Lookup Table
+list_data_sizes,Data Sizes List,Lookup Table
+list_data_sources,Data Sources List,Lookup Table
+list_data_types,Data Types List,Lookup Table
+list_data_visualization_types,Data Visualization Types List,Lookup Table
+list_experimentation_methodologies,Experimentation Methodologies List,Lookup Table
+list_file_formats,File Formats List,Lookup Table
+list_follow_up_activities,Follow-Up Activities List,Lookup Table
+list_githubplan,GitHub Plan List,Lookup Table
+list_gpt_activitystatus,GPT Activity Status List,Lookup Table
+list_gpt_agent_groups,GPT Agent Groups List,Lookup Table
+list_gpt_api_integrations,GPT API Integrations List,Lookup Table
+list_gpt_capabilities,GPT Capabilities List,Lookup Table
+list_gpt_configuration_types,GPT Configuration Types List,Lookup Table
+list_gpt_output_reviews_conducted,GPT Output Reviews Conducted List,Lookup Table
+list_gpt_prompt_stages,GPT Prompt Stages List,Lookup Table
+list_gpt_response_times,GPT Response Times List,Lookup Table
+list_gpt_review_statuses,GPT Review Statuses List,Lookup Table
+list_gpt_software_platforms,GPT Software Platforms List,Lookup Table
+list_gpt_tasks,GPT Tasks List,Lookup Table
+list_gptmodels,GPT Models List,Lookup Table
+list_gptprivacy,GPT Privacy Levels List,Lookup Table
+list_industries,Industries List,Lookup Table
+list_large_language_models,Large Language Models List,Lookup Table
+list_main_languages,Main Languages List,Lookup Table
+list_mdconversionstatus,MD Conversion Status List,Lookup Table
+list_media_types,Media Types List,Lookup Table
+list_open_source_licenses,Open Source Licenses List,Lookup Table
+list_output_quality_assessment,Output Quality Assessment List,Lookup Table
+list_outputtypes,Output Types List,Lookup Table
+list_prompt_complexity,Prompt Complexity Levels List,Lookup Table
+list_prompt_engineering_techniques,Prompt Engineering Techniques List,Lookup Table
+list_prompt_sources,Prompt Sources List,Lookup Table
+list_prompt_storage_locations,Prompt Storage Locations List,Lookup Table
+list_prompttype,Prompt Types List,Lookup Table
+list_promptversion,Prompt Versions List,Lookup Table
+list_publication_platforms,Publication Platforms List,Lookup Table
+list_quality_control_activities,Quality Control Activities List,Lookup Table
+list_reading_levels,Reading Levels List,Lookup Table
+list_reference_sources,Reference Sources List,Lookup Table
+list_relational_database_technologies,Relational Database Technologies List,Lookup Table
+list_retentionplan,Retention Plan List,Lookup Table
+list_reviewpriority,Review Priority Levels List,Lookup Table
+list_saas_subscription_models,SaaS Subscription Models List,Lookup Table
+list_sentiment_types,Sentiment Types List,Lookup Table
+list_target_audiences,Target Audiences List,Lookup Table
+list_taxonomy_organization,Taxonomy Organization Methods List,Lookup Table
+list_urgency,Urgency Levels List,Lookup Table
+list_user_feedback_types,User Feedback Types List,Lookup Table
+list_user_roles_gpt_system,User Roles in GPT System List,Lookup Table
+list_world_countries,World Countries List,Lookup Table
+promptlibrary,Prompt Library,Core Table
+promptoutputs,Prompt Outputs,Core Table
+promptoutputs_tax_prompt_actions,Prompt Outputs to Prompt Actions Mapping,Join Table
+promptqueue,Prompt Queue,Core Table
+rel_custom_gpts_customgptlibraries,Custom GPTs to Custom GPT Libraries Mapping,Join Table
+rel_custom_gpts_tax_gpt_cats,Custom GPTs to GPT Categories Mapping,Join Table
+rel_custom_gpts_tax_gpt_tags,Custom GPTs to GPT Tags Mapping,Join Table
+rel_promptoutputs_tax_project_tags,Prompt Outputs to Project Tags Mapping,Join Table
+scrapingurls,Scraping URLs,Core Table
+tax_gpt_cats,GPT Categories Taxonomy,Taxonomy Table
+tax_gpt_models,GPT Models Taxonomy,Taxonomy Table
+tax_gpt_platforms,GPT Platforms Taxonomy,Taxonomy Table
+tax_gpt_tags,GPT Tags Taxonomy,Taxonomy Table
+tax_knowledge_types,Knowledge Types Taxonomy,Taxonomy Table
+tax_output_cats,Output Categories Taxonomy,Taxonomy Table
+tax_output_formats,Output Formats Taxonomy,Taxonomy Table
+tax_output_types,Output Types Taxonomy,Taxonomy Table
+tax_outputlanguages,Output Languages Taxonomy,Taxonomy Table
+tax_project_tags,Project Tags Taxonomy,Taxonomy Table
+tax_prompt_actions,Prompt Actions Taxonomy,Taxonomy Table
+tax_unique_ids,Unique IDs Taxonomy,Taxonomy Table
+tax_use_cases,Use Cases Taxonomy,Taxonomy Table
+third_party_gpts,Third-Party GPTs,Core Table
