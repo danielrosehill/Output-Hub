@@ -1,0 +1,148 @@
+Table Name,Description,Join From,Join To,Could Be O2M,Type
+custom_gpts,Custom GPTs,,,,Core Module Table
+custom_gpts_accessui_join,Join table between custom GPTs and access UI type,Custom GPTs,Access UI type,,Join Table
+custom_gpts_accuracy_levels_join,Join table between custom GPTs and accuracy levels,Custom GPTs,Accuracy level,,Join Table
+custom_gpts_creationac_join,Join table between custom GPTs and GPT creation account,Custom GPTs,GPT Creation account,,Join Table
+custom_gpts_githubplan_join,Join table between custom GPTs and Github release planner,Custom GPTs,Github release planner,,Join Table
+custom_gpts_gpt_agent_groups_join,Join table between custom GPTs and GPT agent groupings,Custom GPTs,GPT agent groups,,Join Table
+custom_gpts_gpt_api_integrations_join,Join table between custom GPTs and API integrations lookup,Custom GPTs,API integrations,,Join Table
+custom_gpts_gpt_capabilities_join,Join table between custom GPTs and GPT capabilities lookup,Custom GPTs,GPT capabilities lookup,,Join Table
+custom_gpts_gpt_cats_join,Join table between custom GPTs and GPT categories lookup,Custom GPTs,GPT categories lookup,,Join Table
+custom_gpts_gpt_configuration_types_join,Join table between custom GPTs and GPT configuration parameter types,Custom GPTs,Configuration parameters lookup,,Join Table
+custom_gpts_gpt_models_join,Join table between custom GPTs and GPT models lookup,Custom GPTs,GPT models lookup,Y,Join Table
+custom_gpts_gpt_platforms_join,Join table between custom GPTs and GPT platforms lookup,Custom GPTs,GPT platforms,Y,Join Table
+custom_gpts_gpt_tags_join,Join table between custom GPTs and GPT tags lookup,Custom GPTs,GPT tags,,Join Table
+custom_gpts_gptmodels_join,Join table between custom GPTs and GPT models lookup,Custom GPTs,GPT models,Y,Join Table
+custom_gpts_gptprivacy_join,Join table between custom GPTs and GPT privacy levels lookup,Custom GPTs,GPT privacy levels,Y,Join Table
+custom_gpts_project_tags_join,Join table between custom GPTs and project tags lookup,Custom GPTs,Project tags,,Join Table
+custom_gpts_use_cases_join,Join table between custom GPTs and use-cases lookup,Custom GPTs,Use-cases,,Join Table
+customgptlibraries,Custom GPT libraries,,,,Custom Table
+customgptplanner,Custom GPT planner,,,,Custom Table
+lookup_accessui,Access UI,,,,Lookup Table
+lookup_accuracy_levels,Accuracy levels,,,,Lookup Table
+lookup_actionability,Actionability,,,,Lookup Table
+lookup_automation_levels,Automation Levels,,,,Lookup Table
+lookup_backup_statuses,Backup Statuses,,,,Lookup Table
+lookup_business_system_tags,Business System Tags,,,,Lookup Table
+lookup_chatgpt_output_formats,Chatgpt Output Formats,,,,Lookup Table
+lookup_cost_levels,Cost Levels,,,,Lookup Table
+lookup_creationac,Creationac,,,,Lookup Table
+lookup_creative_commons_licenses,Creative Commons Licenses,,,,Lookup Table
+lookup_data_sensitivity,Data Sensitivity,,,,Lookup Table
+lookup_data_sharing_groups,Data Sharing Groups,,,,Lookup Table
+lookup_data_sizes,Data Sizes,,,,Lookup Table
+lookup_data_sources,Data Sources,,,,Lookup Table
+lookup_data_types,Data Types,,,,Lookup Table
+lookup_data_visualization_types,Data Visualization Types,,,,Lookup Table
+lookup_experimentation_methodologies,Experimentation Methodologies,,,,Lookup Table
+lookup_file_formats,File Formats,,,,Lookup Table
+lookup_follow_up_activities,Follow Up Activities,,,,Lookup Table
+lookup_githubplan,Githubplan,,,,Lookup Table
+lookup_gpt_activitystatus,Gpt Activitystatus,,,,Lookup Table
+lookup_gpt_agent_groups,Gpt Agent Groups,,,,Lookup Table
+lookup_gpt_api_integrations,Gpt Api Integrations,,,,Lookup Table
+lookup_gpt_capabilities,Gpt Capabilities,,,,Lookup Table
+lookup_gpt_configuration_types,Gpt Configuration Types,,,,Lookup Table
+lookup_gpt_output_reviews_conducted,Gpt Output Reviews Conducted,,,,Lookup Table
+lookup_gpt_prompt_stages,Gpt Prompt Stages,,,,Lookup Table
+lookup_gpt_response_times,Gpt Response Times,,,,Lookup Table
+lookup_gpt_review_statuses,Gpt Review Statuses,,,,Lookup Table
+lookup_gpt_software_platforms,Gpt Software Platforms,,,,Lookup Table
+lookup_gpt_tasks,Gpt Tasks,,,,Lookup Table
+lookup_gptmodels,Gptmodels,,,,Lookup Table
+lookup_gptprivacy,Gptprivacy,,,,Lookup Table
+lookup_industries,Industries,,,,Lookup Table
+lookup_israel_cities,Israel Cities,,,,Lookup Table
+lookup_large_language_models,Large Language Models,,,,Lookup Table
+lookup_main_languages,Main Languages,,,,Lookup Table
+lookup_mdconversionstatus,Mdconversionstatus,,,,Lookup Table
+lookup_media_types,Media Types,,,,Lookup Table
+lookup_open_source_licenses,Open Source Licenses,,,,Lookup Table
+lookup_output_quality_assessment,Output Quality Assessment,,,,Lookup Table
+lookup_outputtypes,Outputtypes,,,,Lookup Table
+lookup_prompt_complexity,Prompt Complexity,,,,Lookup Table
+lookup_prompt_engineering_techniques,Prompt Engineering Techniques,,,,Lookup Table
+lookup_prompt_sources,Prompt Sources,,,,Lookup Table
+lookup_prompt_storage_locations,Prompt Storage Locations,,,,Lookup Table
+lookup_prompttype,Prompttype,,,,Lookup Table
+lookup_promptversion,Promptversion,,,,Lookup Table
+lookup_publication_platforms,Publication Platforms,,,,Lookup Table
+lookup_quality_control_activities,Quality Control Activities,,,,Lookup Table
+lookup_reading_levels,Reading Levels,,,,Lookup Table
+lookup_reference_sources,Reference Sources,,,,Lookup Table
+lookup_relational_database_technologies,Relational Database Technologies,,,,Lookup Table
+lookup_retentionplan,Retentionplan,,,,Lookup Table
+lookup_reviewpriority,Reviewpriority,,,,Lookup Table
+lookup_reviewstatus,Reviewstatus,,,,Lookup Table
+lookup_saas_subscription_models,Saas Subscription Models,,,,Lookup Table
+lookup_sentiment_types,Sentiment Types,,,,Lookup Table
+lookup_target_audiences,Target Audiences,,,,Lookup Table
+lookup_taxonomy_organization,Taxonomy Organization,,,,Lookup Table
+lookup_urgency,Urgency,,,,Lookup Table
+lookup_user_feedback_types,User Feedback Types,,,,Lookup Table
+lookup_user_roles_gpt_system,User Roles Gpt System,,,,Lookup Table
+lookup_world_countries,World Countries,,,,Lookup Table
+promptlibrary,Promptlibrary,,,,Prompt Table
+promptlibrary_custom_gpts_join,Join table between prompt library and custom GPTs,Prompt library,Custom GPTs,,Join Table
+promptlibrary_gpt_cats_join,Join table between prompt library and categories lookup,Prompt library,GPT categories,,Join Table
+promptlibrary_gpt_tags_join,Join table between prompt library and tags lookup,Prompt library,GPT tags,,Join Table
+promptlibrary_prompt_complexity_join,Join table between prompt library and prompt complexity lookup,Prompt library,Prompt complexity level,Y,Join Table
+promptlibrary_prompt_engineering_techniques_join,Join table between prompt library and prompt engineering techniques lookup,Prompt library,Prompt eng techniques,,Join Table
+promptlibrary_prompt_sources_join,Join table between prompt library and prompt sources lookup,Prompt library,Prompt source,,Join Table
+promptlibrary_prompt_storage_locations_join,Join table between prompt library and prompt storage locations lookup,Prompt library,Prompt storage location,Y,Join Table
+promptlibrary_promptoutputs_join,Join table between prompt library and prompt outputs,Prompt library,Prompt outputs,,Join Table
+promptlibrary_prompttype_join,Join table between prompt library and prompt type lookup,Prompt library,Prompt type,Y,Join Table
+promptlibrary_promptversion_join,Join table between prompt library and prompt version lookup,Prompt library,Prompt version,Y,Join Table
+promptoutputs,Prompt outputs,,,,Core Module Table
+promptoutputs_accessui_join,Join table between promp outputs and access UI lookup table,Prompt outputs,Access UI,Y,Join Table
+promptoutputs_accuracy_levels_join,Join table between promp outputs and accuracy level lookup table,Prompt outputs,Accuracy Level,Y,Join Table
+promptoutputs_actionability_join,Join table between promp outputs and actionability levels lookup table,Prompt outputs,Actionability,Y,Join Table
+promptoutputs_custom_gpts_join,Join table between promp outputs and custom GPTs,Prompt outputs,Custom GPTs,,Join Table
+promptoutputs_data_sensitivity_join,Join table between promp outputs and data sensitivity level lookup table,Prompt outputs,Data sensitivity level,Y,Join Table
+promptoutputs_data_sizes_join,Join table between promp outputs and data size lookup table,Prompt outputs,Data size level,Y,Join Table
+promptoutputs_data_types_join,Join table between promp outputs and data types lookup table,Prompt outputs,Data type,Y,Join Table
+promptoutputs_file_formats_join,Join table between promp outputs and file formats lookup table,Prompt outputs,File format,Y,Join Table
+promptoutputs_follow_up_activities_join,Join table between promp outputs and follow up activities lookup table,Prompt outputs,Follow up activities,,Join Table
+promptoutputs_gpt_cats_join,Join table between promp outputs and GPT categories lookup,Prompt outputs,GPT categories,,Join Table
+promptoutputs_industries_join,Join table between promp outputs and short industries list lookup,Prompt outputs,Industry,,Join Table
+promptoutputs_knowledge_types_join,Join table between promp outputs and knowledge types lookup table,Prompt outputs,Knowledge type,,Join Table
+promptoutputs_large_language_models_join,Join table between promp outputs and LLMs lookup table,Prompt outputs,LLM list,Y,Join Table
+promptoutputs_mdconversionstatus_join,Join table between promp outputs and markdown conversion status lookup,Prompt outputs,Markdown conversion status,Y,Join Table
+promptoutputs_output_cats_join,Join table between promp outputs and output categories lookup,Prompt outputs,Output categories,,Join Table
+promptoutputs_output_formats_join,Join table between promp outputs and output formats lookup,Prompt outputs,Output formats,Y,Join Table
+promptoutputs_output_types_join,Join table between promp outputs and output types lookup,Prompt outputs,Output types,Y,Join Table
+promptoutputs_outputlanguages_join,Join table between promp outputs and language lookup,Prompt outputs,Output language,Y,Join Table
+promptoutputs_outputtypes_join,Join table between promp outputs and output types lookup redundant,Prompt outputs,Output types,Y,Join Table
+promptoutputs_project_tags_join,Join table between promp outputs and project tags lookup,Prompt outputs,Project tag,,Join Table
+promptoutputs_prompt_actions_join,Join table between promp outputs and post prompt actions lookup,Prompt outputs,Prompt actions,,Join Table
+promptoutputs_promptlibrary_join,Join table between promp outputs and prompt library,Prompt outputs,Prompt library,,Join Table
+promptoutputs_reading_levels_join,Join table between promp outputs and reading levels lookup,Prompt outputs,Reading level,Y,Join Table
+promptoutputs_reference_sources_join,Join table between promp outputs and reference sources lookup,Prompt outputs,Reference sources,,Join Table
+promptoutputs_retentionplan_join,Join table between promp outputs and data retention plan lookup,Prompt outputs,Data retention plan,Y,Join Table
+promptoutputs_reviewpriority_join,Join table between promp outputs and review priority lookup,Prompt outputs,Review priority,Y,Join Table
+promptoutputs_reviewstatus_join,Join table between promp outputs and review status lookup,Prompt outputs,Review status,Y,Join Table
+promptoutputs_sentiment_types_join,Join table between promp outputs and prompt sentiment lookup,Prompt outputs,Sentiment type,Y,Join Table
+promptoutputs_target_audiences_join,Join table between promp outputs and target audience lookup,Prompt outputs,Target audience,,Join Table
+promptoutputs_tax_prompt_actions,Join table between promp outputs and prompt actions taxonomy,,,,Relation Table
+promptoutputs_urgency_join,Join table between promp outputs and urgeny level lookup,Prompt outputs,Urgency,Y,Join Table
+promptoutputs_use_cases_join,Join table between promp outputs and use cases,Prompt outputs,Use-cases,,Join Table
+promptqueue,Prompt queue,,,,Prompt Table
+rel_custom_gpts_customgptlibraries,Gpts Customgptlibraries,,,,Relation Table
+rel_custom_gpts_tax_gpt_cats,Gpts Gpt Cats,,,,Relation Table
+rel_custom_gpts_tax_gpt_tags,Gpts Gpt Tags,,,,Relation Table
+rel_promptoutputs_tax_project_tags,Promptproject Tags,,,,Relation Table
+scrapingurls,Scrapingurls,,,,General Table
+tax_gpt_cats,Gpt Cats,,,,Relation Table
+tax_gpt_models,Gpt Models,,,,Relation Table
+tax_gpt_platforms,Gpt Platforms,,,,Relation Table
+tax_gpt_tags,Gpt Tags,,,,Relation Table
+tax_knowledge_types,Knowledge Types,,,,Relation Table
+tax_output_cats,Output Cats,,,,Relation Table
+tax_output_formats,Output Formats,,,,Relation Table
+tax_output_types,Output Types,,,,Relation Table
+tax_outputlanguages,Outputlanguages,,,,Relation Table
+tax_project_tags,Project Tags,,,,Relation Table
+tax_prompt_actions,Actions,,,,Relation Table
+tax_unique_ids,Unique Ids,,,,Relation Table
+tax_use_cases,Use Cases,,,,Relation Table
+third_party_gpts,Third Party Gpts,,,,General Table
