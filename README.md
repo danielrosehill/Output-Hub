@@ -1,4 +1,4 @@
-![A sloth opening up a chest full of GPTs](/images/banner.webp)
+![A sloth opening up a chest full of GPTs](/graphics/banner.webp)
 *Banner: A depiction of a sloth opening up a wooden chest containing GPTs. DALLE.*
 
 ## Repository Description
