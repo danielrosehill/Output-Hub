@@ -9,8 +9,19 @@ The system is a work in progress but also currently includes the ability to stor
 
 The system leverages the usefulness of the underlying relational database in order to help the user make logical connections between custom GPTs, prompts used, and prompt outputs stored from generations.
 
-![Directus](screenshots/frontend/directus020924/1.png)
+## Screenshots
 
+See `screenshots.md` for some screenshots of system modules as I develop them!
+
+### Listing Custom GPTs
+
+### Custom GPT List View
+
+![alt text](screenshots/frontend/020924_directus/customgpts/customgpts_listview.png)
+
+### View & Edit Output
+
+![alt text](screenshots/frontend/020924_directus/outputmanagement/view_edit_output.png)
 
 ## Core Modules
 
