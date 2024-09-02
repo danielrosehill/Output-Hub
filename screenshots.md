@@ -1,50 +1,63 @@
-# Frontend / Data Management With Directus (02-Sep-2024)
+# Directus Frontend (02-Sep-24)
 
-## Custom GPT Manager
+## Custom GPT Module
 
-![alt text](screenshots/frontend/directus020924/1.png)
+### Custom GPT and tag assignments
 
-## Lookup Tables, Prompt Library
+![Custom GPT in library and tags](screenshots/frontend/020924_directus/customgpts/customgpt_and_assign_tags.png)
 
-![alt text](screenshots/frontend/directus020924/2.png)
+### Custom GPT Editing View
 
-## Lookup Tables, Prompt Outputs
+![alt text](screenshots/frontend/020924_directus/customgpts/customgpt_editview.png)
 
-![alt text](screenshots/frontend/directus020924/3.png)
+### Custom GPT List View
 
-## Taxonomies
+![alt text](screenshots/frontend/020924_directus/customgpts/customgpts_listview.png)
 
-![alt text](screenshots/frontend/directus020924/4.png)
+### Editing GPT Config
 
-## Database Schema
+![alt text](screenshots/frontend/020924_directus/customgpts/editinggptconfig.png)
 
-![alt text](screenshots/frontend/directus020924/5.png)
+### GPT Agent Group Assignment
 
-## Custom GPTs Module, Fields
+![alt text](screenshots/frontend/020924_directus/customgpts/gpt_agent_groups.png)
 
-![alt text](screenshots/frontend/directus020924/6.png)
+## Managing GPT Tags
 
-## Data Model Overview, Directus
+![alt text](screenshots/frontend/020924_directus/othermodules/tags.png)
 
-![alt text](screenshots/frontend/directus020924/7.png)
+## GPT Output Module
 
-## Assigning Follow-Up Tags (To Prompt Output)
+### Viewing Individual Output
 
-![alt text](screenshots/frontend/directus020924/8.png)
+![alt text](screenshots/frontend/020924_directus/outputmanagement/viewoutput.png)
 
-## Appending Notes To Prompt Output
+### View & Edit Output
 
-![alt text](screenshots/frontend/directus020924/9.png)
+![alt text](screenshots/frontend/020924_directus/outputmanagement/view_edit_output.png)
 
-## Example Saved Prompt Output
+![alt text](screenshots/frontend/020924_directus/outputmanagement/selecting_output_review_urgency.png)
 
-![alt text](screenshots/frontend/directus020924/10.png)
+![alt text](screenshots/frontend/020924_directus/outputmanagement/review_tags.png)
 
+![alt text](screenshots/frontend/020924_directus/outputmanagement/outputslistview.png)
 
-## Selecting Related Custom GPT (Prompt Output Screen)
+![alt text](screenshots/frontend/020924_directus/outputmanagement/output_code_elements.png)
 
-![alt text](screenshots/frontend/directus020924/11.png)
+![alt text](screenshots/frontend/020924_directus/outputmanagement/editing_output_rating.png)
 
-## Tag Associations (Prompt Output Screen)
+## Batch Editing Operations
 
-![alt text](screenshots/frontend/directus020924/12.png)
+![alt text](screenshots/frontend/020924_directus/outputmanagement/batchselectingoutputs.png)
+
+![alt text](screenshots/frontend/020924_directus/outputmanagement/addingtagsinbatch.png)
+
+## Data Model: Core Modules, Lookups, Relationships
+
+![alt text](screenshots/frontend/020924_directus/datamodel/customgpt_lookups.png)
+
+![alt text](screenshots/frontend/020924_directus/datamodel/datamodel_highlevel.png)
+
+![alt text](screenshots/frontend/020924_directus/datamodel/general_lookup_tables.png)
+
+![alt text](screenshots/frontend/020924_directus/datamodel/promptlibrary_lookups.png)
