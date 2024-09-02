@@ -9,7 +9,8 @@ The system is a work in progress but also currently includes the ability to stor
 
 The system leverages the usefulness of the underlying relational database in order to help the user make logical connections between custom GPTs, prompts used, and prompt outputs stored from generations.
 
-![FrontendV1](/Screenshots/frontend/1.png)
+![Directus](screenshots/frontend/directus020924/1.png)
+
 
 ## Core Modules
 
