@@ -14,9 +14,9 @@ System for managing, organising, and editing GPT outputs at scale with features 
 
 ## Proof of Concept  / Work Done So Far
 
-1: Developed database and schema on Postgres
-2: Used NocoDB to validate usability of system and created an inventory of about 1,000 outputs, 300 GPTs, and 200 prompts
-3: Frontend development - in progress / testing systems.
+- Developed database and schema on Postgres
+- Used NocoDB to validate usability of system and created an inventory of about 1,000 outputs, 300 GPTs, and 200 prompts
+- Frontend development - in progress / testing systems.
   
 ---
 
