@@ -11,6 +11,12 @@ System for managing, organising, and editing GPT outputs at scale with features 
 - View and edit saved prompts in prompt library
 - View and update an inventory (list) of custom GPT configurations, with configuration parameters recorded in human-readable text and JSON
 - Side by side editing of previously stored prompts and a human-improved version allowing for prompt outputs to be iteratively refined and brought forward for use to support business functions
+
+## Proof of Concept  / Work Done So Far
+
+1: Developed database and schema on Postgres
+2: Used NocoDB to validate usability of system and created an inventory of about 1,000 outputs, 300 GPTs, and 200 prompts
+3: Frontend development - in progress / testing systems.
   
 ---
 
