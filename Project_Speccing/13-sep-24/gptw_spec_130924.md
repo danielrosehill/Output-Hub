@@ -2,7 +2,7 @@
 
 ## Project specification: 
 
-System for managing, organising, and editing GPT outputs at scale with features for storing prompt outputs, storing a prompt library, storing custom GPT configurations (for GPT agents), recording additional metadata like quality ratings and prompt engineering techniques used, and creating links between the various components.
+System for managing, organizing, and editing GPT outputs at scale with features for storing prompt outputs, storing a prompt library, storing custom GPT configurations (for GPT agents), recording additional metadata like quality ratings and prompt engineering techniques used, and creating links between the various components.
 
 ## UI Interfaces
 
@@ -10,13 +10,13 @@ System for managing, organising, and editing GPT outputs at scale with features 
 - Search through and read previously saved outputs (and filter based on tags, output parameters recorded, or other variables)
 - View and edit saved prompts in prompt library
 - View and update an inventory (list) of custom GPT configurations, with configuration parameters recorded in human-readable text and JSON
-- Side by side editing of previously stored prompts and a human-improved version allowing for prompt outputs to be iteratively refined and brought forward for use to support business functions
+- Side-by-side editing of previously stored prompts and a human-improved version allowing for prompt outputs to be iteratively refined and brought forward for use to support business functions
 
-## Proof of Concept  / Work Done So Far
+## Proof of Concept / Work Done So Far
 
 - Developed database and schema on Postgres
-- Used NocoDB to validate usability of system and created an inventory of about 1,000 outputs, 300 GPTs, and 200 prompts
-- Frontend development - in progress / testing systems.
+- Used NocoDB to validate the usability of the system and created an inventory of about 1,000 outputs, 300 GPTs, and 200 prompts
+- Frontend development - in progress / testing systems
   
 ---
 
@@ -52,6 +52,7 @@ Develop a self-hosted system to manage a large and growing collection of GPT out
 3. **Backup & Data Integrity**:
    - **Backup Capability**:
      - Implement a backup mechanism that ensures all data (prompts, outputs, metadata, and links) can be easily and regularly backed up.
+     - Ensure that the backup preserves all internal data relationships, including many-to-many (M2M) and one-to-many (O2M) relationships.
    - **Data Recovery**:
      - Ensure that the system supports easy restoration from backups, maintaining data integrity and consistency.
 
@@ -79,3 +80,4 @@ Develop a self-hosted system to manage a large and growing collection of GPT out
      - Provide the ability to create and manage links between related items, such as linking a prompt to its corresponding output.
    - **Cross-Referencing**:
      - Support cross-referencing between different elements within the system, making it easier to navigate related content.
+
