@@ -15,7 +15,17 @@ See `screenshots.md` for some screenshots of system modules as I develop them!
 
 ## Data Structure & Relationships
 
-![alt text](Data_Architecture/schema_v1.png)
+### High level overview
+
+![alt text](Data_Architecture/samples/schema_v1.png)
+
+### Key system modules
+
+![alt text](Data_Architecture/samples/key_tables/CustomGPTs.png)
+
+![alt text](Data_Architecture/samples/key_tables/prompt_outputs.png)
+
+![alt text](Data_Architecture/samples/key_tables/prompt_library.png)
 
  ----
 
