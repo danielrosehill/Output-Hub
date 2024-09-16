@@ -15,7 +15,7 @@ See `screenshots.md` for some screenshots of system modules as I develop them!
 
 ## Data Structure & Relationships
 
-![alt text](Data_Architecture/160924_ERDs/160924.png)
+ ![alt text](Data_Architecture/sampleerd.png)
 
 ### Listing Custom GPTs
 
