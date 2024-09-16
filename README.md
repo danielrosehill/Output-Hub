@@ -13,6 +13,10 @@ The system leverages the usefulness of the underlying relational database in ord
 
 See `screenshots.md` for some screenshots of system modules as I develop them!
 
+## Data Structure & Relationships
+
+![alt text](Data_Architecture/160924_ERDs/160924.png)
+
 ### Listing Custom GPTs
 
 ### Custom GPT List View
