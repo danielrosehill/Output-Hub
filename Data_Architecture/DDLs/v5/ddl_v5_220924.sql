@@ -806,10 +806,16 @@ CREATE INDEX idx_prompt_outputs_composite ON public.prompt_outputs(user_id, crea
 CREATE INDEX idx_custom_gpts_prompt_library_custom_gpt_id ON public.custom_gpts_prompt_library(custom_gpt_id);
 CREATE INDEX idx_custom_gpts_prompt_library_prompt_library_id ON public.custom_gpts_prompt_library(prompt_library_id);
 
--- Add table partitioning for large tables (example for prompt_outputs)
-CREATE TABLE public.prompt_outputs_partitioned (
-    LIKE public.prompt_outputs INCLUDING ALL
+CREATE TABLE prompt_outputs_partitioned (
+    id serial NOT NULL,
+    prompt_id integer NOT NULL,
+    output text NOT NULL,
+    created_at timestamp NOT NULL,
+    -- Other columns...
+    PRIMARY KEY (id, created_at)  -- Add created_at to the primary key
 ) PARTITION BY RANGE (created_at);
+
+
 
 CREATE TABLE public.prompt_outputs_y2023 PARTITION OF public.prompt_outputs_partitioned
     FOR VALUES FROM ('2023-01-01') TO ('2024-01-01');
