@@ -1,7 +1,34 @@
 ![A sloth opening up a chest full of GPTs](/Graphics/banner.webp)
 *Banner: A depiction of a sloth opening up a wooden chest containing GPTs. DALLE.*
 
-##  Output Hub: A Knowledge Management System For Capturing, Organising, And Refining Textual LLM Outputs (Project)
+---
+
+#  Output Hub (Project Name)
+
+## An "Output Management System" (storage, indexing, editing of textual LLM outputs)
+
+*The "whys"*
+
+**For everyone:**
+
+- Because copying and pasting valuable LLM outputs into Google Docs isn't sustainable, scalable, or smart
+- Because wherever you do your prompting and wherever you get those outputs, it doesn't make sense to store those outputs on a SaaS platform that makes no guarantees about safeguarding your data
+
+**For business users:**
+
+- Because as AI tools and humans begin to work in harmonious workflows, LLM outputs that are carefully reviewed and improved upon should be treated with the same importance as other business information and internal knowledge
+- Because the native search and indexing capabilities of major LLM platforms are (currently) underdeveloped and as outputs scale into the hundreds and tens of thousands information retrieval and organisation become real concerns
+- Because different LLMs serve different purposes but their outputs should be centralised
+- Because storing a structured repository of outputs can cut down on unnecessary LLM runs
+- Because aggregating outputs faciltates the creation of a central data repository that could later be used for data mining and insights - or offloaded to a data warehouse for second-pass LLM analysis
+
+**For AI enthusiasts**
+
+- Because effective prompt engineering requires associating prompts and outputs and simply storing an inventory of prompts isn't enough
+
+---
+
+## Now The Formal Description
 
 A knowledge management tool optimised for the storage and retrieval of the outputs of large language models (LLMs) including GPTs - intended for both professional users of LLMs and individual users generating at scale and requiring robust output storage. 
 
@@ -15,14 +42,21 @@ For example, by creating associations between custom LLM agents and their output
 
 The framework outlined in this system describes a system designed to enable LLM outputs to receive proper attention and management in internal information systems. The data model and architecture are both works in progress and the precise fields and tables outlined here should be understood as merely illustrative of the broader concept.
 
+---
 
 ## Screenshots
 
 See `Screenshots.md` for some Screenshots of system modules as I develop them!
 
+---
+
 ## Data Structure & Relationships
 
-### High level overview
+### A Simpler Model
+
+
+
+### ERD - The Details
 
 ![alt text](Data_Architecture/Examples/schema_v1.png)
 
@@ -45,6 +79,8 @@ See `Screenshots.md` for some Screenshots of system modules as I develop them!
 ### View & Edit Output
 
 ![alt text](Screenshots/frontend/020924_directus/outputmanagement/view_edit_output.png)
+
+---
 
 ## Core Modules
 
@@ -78,6 +114,8 @@ Prompt libraries are more typically used in the reverse order: to capture prompt
 
 A work in progress? Figuring out the best way to make these two sides of the prompting journey connect as a unified dataset. The workflow I'm working towards: casual prompts are captured as draft "serious" prompts (in the library). They may be discarded or evaluated as prospective production prompts. 
 
+---
+
 ## Key Data Relationships
 
 | Relationship | Description | Why It Matters |
@@ -87,15 +125,13 @@ A work in progress? Figuring out the best way to make these two sides of the pro
 | Custom GPTs to prompt outputs | A custom GPT is used to generate a prompt. Any GPT can be used to generate an infinite number of prompts. | Correlate custom GPT configurations with the prompt outputs that they generate |
 | Prompts to custom GPTs | Prompts are used to generate outputs from custom GPTs | Identifying what kind of prompting strategy works best for a specific custom GPT | 
 
-## Data Architecture
-
-See: `Data_Architecture`
-
-![Data relationships](/Graphics/banner.png)
+---
 
 ## Starter System Taxonomies
 
 See the starter taxonomies and the `notes.md` in the folder.
+
+---
 
 ## What Is An AI Output Management System Designed To Do?
 
@@ -105,9 +141,13 @@ Even at a basic level of scale, leveraging LLMs *professionally* involves an evo
 
 While enterprise users may develop proprietary LLMs, many smaller businesses will access the technology through popular platforms like OpenAI's ChatGPT.
 
+---
+
 ## Current Stack
 
 See - `stack.md`
+
+---
 
 ### Core Components Of An "Output Hub"
 
@@ -125,6 +165,8 @@ Although many tools target solely one aspect of this workflow, the data is inter
 
 A true LLM Output Management System ("OMS") should incorporate all these related "modules" into one holistic system.
 
+---
+
 ## Keywords
 
 - LLMs
@@ -132,10 +174,14 @@ A true LLM Output Management System ("OMS") should incorporate all these related
 - Custom GPTs
 - NocoDB
 
+---
+
 ## Repository Components
 
 `System.md`
 - High level document describing the system
+  
+---
 
 ## Author
 
