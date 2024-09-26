@@ -1,17 +1,24 @@
-![A sloth opening up a chest full of GPTs](/graphics/banner.webp)
+![A sloth opening up a chest full of GPTs](/Graphics/banner.webp)
 *Banner: A depiction of a sloth opening up a wooden chest containing GPTs. DALLE.*
 
-## Repository Description
+## "Output Hub" (working name) - Project Outline
 
-The purpose of this GPT is to provide documentation which I will update periodically documenting a system I am creating for organizing and storing the output of ChatGPT prompts. 
+A knowledge management tool optimised for the storage and retrieval of the outputs of large language models (LLMs) including GPTs - intended for both professional users of LLMs and individual users generating at scale and requiring robust output storage. 
 
-The system is a work in progress but also currently includes the ability to store prompts (AKA a "prompt library") and includes other taxonomies to help organize data. 
+Output Hub aims to provide a cohesive framework for managing LLM outputs to facilitate their refinement and development by humans. It is designed to ensure that useful textual LLM generations are retained, well-indexed, and accessible - in much the same way that traditional knowledge management tools have sought to manage knowledge. 
 
-The system leverages the usefulness of the underlying relational database in order to help the user make logical connections between custom GPTs, prompts used, and prompt outputs stored from generations.
+In addition to that, and in recognition of how LLM usage works, Output Hub (working name) also provides modules for recording prompts (ie, a prompt library) and for storing the configuration of custom LLM agents. 
+
+A core focus of the design of Output Hub is using the power of relational database design to create deep linkages within the system. This, in turn, can yield further value. 
+
+For example, by creating associations between custom LLM agents and their outputs, agent configurations can be improved iteratively. Other metadata elements have been added to reflect information that may be important in professional usage environments. An example of this is associating formal data retention policies with individual outputs. 
+
+The framework outlined in this system describes a system designed to enable LLM outputs to receive proper attention and management in internal information systems. The data model and architecture are both works in progress and the precise fields and tables outlined here should be understood as merely illustrative of the broader concept.
+
 
 ## Screenshots
 
-See `screenshots.md` for some screenshots of system modules as I develop them!
+See `Screenshots.md` for some Screenshots of system modules as I develop them!
 
 ## Data Structure & Relationships
 
@@ -33,11 +40,11 @@ See `screenshots.md` for some screenshots of system modules as I develop them!
 
 ### Custom GPT List View
 
-![alt text](screenshots/frontend/020924_directus/customgpts/customgpts_listview.png)
+![alt text](Screenshots/frontend/020924_directus/customgpts/customgpts_listview.png)
 
 ### View & Edit Output
 
-![alt text](screenshots/frontend/020924_directus/outputmanagement/view_edit_output.png)
+![alt text](Screenshots/frontend/020924_directus/outputmanagement/view_edit_output.png)
 
 ## Core Modules
 
