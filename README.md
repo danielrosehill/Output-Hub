@@ -24,15 +24,15 @@ See `Screenshots.md` for some Screenshots of system modules as I develop them!
 
 ### High level overview
 
-![alt text](Data_Architecture/samples/schema_v1.png)
+![alt text](Data_Architecture/Examples/schema_v1.png)
 
 ### Key system modules
 
-![alt text](Data_Architecture/samples/key_tables/CustomGPTs.png)
+![alt text](Data_Architecture/Examples/key_tables/CustomGPTs.png)
 
-![alt text](Data_Architecture/samples/key_tables/prompt_outputs.png)
+![alt text](Data_Architecture/Examples/key_tables/prompt_outputs.png)
 
-![alt text](Data_Architecture/samples/key_tables/prompt_library.png)
+![alt text](Data_Architecture/Examples/key_tables/prompt_library.png)
 
  ----
 
@@ -91,7 +91,7 @@ A work in progress? Figuring out the best way to make these two sides of the pro
 
 See: `Data_Architecture`
 
-![Data relationships](/images/banner.png)
+![Data relationships](/Graphics/banner.png)
 
 ## Starter System Taxonomies
 
