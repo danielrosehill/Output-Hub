@@ -25,6 +25,9 @@
 **For AI enthusiasts**
 
 - Because effective prompt engineering requires associating prompts and outputs and simply storing an inventory of prompts isn't enough
+- Because LLMs are powerful tools for ideation and it may make sense for this class of "knowledge" to be left to AI and prompt engineering specialists in the business of today (and tomorrow)
+
+![alt text](Graphics/oh_square.png)
 
 ---
 
