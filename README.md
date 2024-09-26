@@ -1,7 +1,7 @@
 ![A sloth opening up a chest full of GPTs](/Graphics/banner.webp)
 *Banner: A depiction of a sloth opening up a wooden chest containing GPTs. DALLE.*
 
-## "Output Hub" (working name) - Project Outline
+##  Output Hub: A Knowledge Management System For Capturing, Organising, And Refining Textual LLM Outputs (Project)
 
 A knowledge management tool optimised for the storage and retrieval of the outputs of large language models (LLMs) including GPTs - intended for both professional users of LLMs and individual users generating at scale and requiring robust output storage. 
 
@@ -36,7 +36,7 @@ See `Screenshots.md` for some Screenshots of system modules as I develop them!
 
  ----
 
-### Listing Custom GPTs
+### Listing Custom LLM Agents
 
 ### Custom GPT List View
 
@@ -50,17 +50,17 @@ See `Screenshots.md` for some Screenshots of system modules as I develop them!
 
 ### 1: Prompt Output Library
 
-The core function of this module is to record and store for recall the output of GPT prompts that may have lasting value (for whatever purpose). 
+The core function of this module is to record and store for recall the output of LLM prompts that may have lasting value (for whatever purpose). 
 
 The module can be written to and read from both programatically (via direct API integration with ChatGPT, for example) or via a web UI (for example, the user copies and pastes prompts and prompt outputs or perhaps uses some RPA tools to do this more efficiently.)
 
 Over time, a rich and useful repository of information is developed. As prompt outputs are reviewed by humans, human-refined AI outputs can be stored in a separate database field (like `edited_output`).
 
-### 2: Custom GPT Library
+### 2: Custom Agent Library
 
-Just as engineered prompts are valuable assets for ongoing interactions with GPTs, customised GPTs (context and knowledge layered onto core GPT models) have potentially significant business value.
+Just as engineered prompts are valuable assets for ongoing interactions with LLMs, customised LLMs (context and knowledge layered onto core models) have potentially significant business value.
 
-The second module in GPT Workbench (working name) is a system for storing these configurations. Again, you could record custom GPTs created programatically or visually.
+The second module in Output Hub (working name) is a system for storing these configurations. Again, you could record custom GPTs created programatically or visually.
 
 An important data relationship is that which is captured between **GPT outputs** and **custom GPTs**. By mapping outputs onto the GPTs they originated from (where those are custom GPTs and not the undifferentiated GPT models) custom GPT configurations can be evaluated for efficacy and refined iteratively. 
 
@@ -97,27 +97,25 @@ See: `Data_Architecture`
 
 See the starter taxonomies and the `notes.md` in the folder.
 
-Some of the demo taxonomies will quickly become outdated (e.g. the list of GPT models).
-
-## What Is A GPT "Management System"?
+## What Is An AI Output Management System Designed To Do?
 
 Here's my thinking and definition: 
 
-Even at a basic level of scale, leveraging GPTs *professionally* involves an evolving series of functions which will likely become more "standardised" as harnessing GPTs for business uses becomes more entrenched and established. 
+Even at a basic level of scale, leveraging LLMs *professionally* involves an evolving series of functions which will likely become more "standardised" as harnessing LLMs for business uses becomes more entrenched and established. 
 
-While enterprise users may develop proprietary GPTs or even LLMs, many smaller businesses will access the technology through popular platforms like OpenAI's ChatGPT.
+While enterprise users may develop proprietary LLMs, many smaller businesses will access the technology through popular platforms like OpenAI's ChatGPT.
 
 ## Current Stack
 
 See - `stack.md`
 
-### Core Components Of A "GPT Workbench" / GPT Management System
+### Core Components Of An "Output Hub"
 
-Whether users are using GPTs programatically or via GUI elements including a web UI, these activities are likely very important:
+Whether users are using LLMs programatically or via GUI elements including a web UI, these activities are likely very important:
 
-- **Creating an inventory of custom GPTs and/or prompts**: Prompt engineering and custom GPTs both offer distinct advantages and can be used well together. To avoid vendor-lock, no matter where custom GPTs are configured, it is prudent to maintain a careful inventory of them noting all their key parameters. 
+- **Creating an inventory of custom LLM agents and/or prompts**: Prompt engineering and custom LLM agents both offer distinct advantages and can be used well together. To avoid vendor-lock, no matter where custom LLMs are configured, it is prudent to maintain a careful inventory of them noting all their key parameters. 
 - **Prompt evaulation and testing**: A/B testing prompts and putting them through formal evaluation frameworks. Version control systems are important to iteratively improve prompts used in production settings where generation-based expenditure provides a powerful incentive for generative AI teams to optimise the prompts used.
-- **Prompt output capture**: Prompt output capture entails being rigorous about capturing GPT outputs whether they are generated via a script or in a browser tab. 
+- **Prompt output capture**: Prompt output capture entails being rigorous about capturing LLM outputs whether they are generated via a script or in a browser tab. 
 
 Although many tools target solely one aspect of this workflow, the data is inter-related. For example:
 
@@ -125,7 +123,7 @@ Although many tools target solely one aspect of this workflow, the data is inter
 - After iterative improvement (probably collaboratively in the business setting) the prompt might be considered ready for production use and entered into a prompt library. 
 - That prompt will be used to generate discrete outputs. Those outputs and the prompt they are generated from are highly related datapoints that should be related formally in the data structure. The outputs can be leveraged to iteratively improve the underlying prompt. 
 
-A true GPT Management System (or "GPT Workbench") should incorporate all these related "modules" into one holistic system.
+A true LLM Output Management System ("OMS") should incorporate all these related "modules" into one holistic system.
 
 ## Keywords
 
