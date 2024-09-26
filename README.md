@@ -41,7 +41,35 @@
 
 ---
 
-## Now The Formal Description
+## Potential Architectures
+
+### Simple data capture into system
+
+V1: users add prompts and outputs to knowledge manager through manual operations (ie, copying and pasting from clipboard into app or using a browser snipping tool):
+
+![alt text](Diagrams/png/diagram4.png)
+
+(OMS = "Output management system")
+
+
+### Advanced / Strech Goal: LLM API integration
+
+V2: LLM API is integrated into system (e.g. OpenAI API or Anthropic API). 
+
+Under this mode:
+
+-  The user engineers a prompt in the output management system (OMS)
+-  When ready, the prompt is committed to the production prompt library
+-  When required, prompt is executed against an LLM via an API integration
+-  Prompt output is collected from the API and saved back into the OMS
+-  Output can now be managed and advanced through internal workflow(s) like quality assurance, editing, and enhancement 
+
+User engineer prompts that are then run through API and automatically captured.
+
+![](Diagrams/png/diagram5.png)
+
+
+## Formal Description
 
 A knowledge management tool optimised for the storage and retrieval of the outputs of large language models (LLMs) including GPTs - intended for both professional users of LLMs and individual users generating at scale and requiring robust output storage. 
 
