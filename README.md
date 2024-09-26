@@ -51,6 +51,7 @@ V1: users add prompts and outputs to knowledge manager through manual operations
 
 (OMS = "Output management system")
 
+---
 
 ### Advanced / Strech Goal: LLM API integration
 
